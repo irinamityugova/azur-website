@@ -569,7 +569,6 @@ section {
   margin-bottom: 25px;
   text-align: center;
   border: 1px solid var(--lightgray);
-  height: 200px;
   position: relative;
   background: var(--lightgray);
 }
