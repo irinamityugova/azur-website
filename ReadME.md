@@ -26,6 +26,4 @@ Azur Agency Website
 
 ## Author
 
-- [Fernando Trejo](https://michellerenee.dev)
-- [DarkMode Devs](https://www.facebook.com/profile.php?id=100073842390690)
-- [LinkedIn](https://www.linkedin.com/in/devftrejo/)
+- [Irina Mityugova](https://www.linkedin.com/in/irina-mityugova/)
