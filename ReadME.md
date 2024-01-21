@@ -27,3 +27,5 @@ Azur Agency Website
 ## Author
 
 - [Irina Mityugova](https://www.linkedin.com/in/irina-mityugova/)
+- [Fernando Trejo](https://www.linkedin.com/in/devftrejo/)
+- [Azur Agency LinkedIn](https://www.linkedin.com/company/creativeazur/)
