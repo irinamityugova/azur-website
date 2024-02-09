@@ -526,7 +526,7 @@ section {
   margin: 0;
 }
 
-.cta .cta-btn {
+.cta-btn {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -543,7 +543,7 @@ section {
   background: var(--white);
 }
 
-.cta .cta-btn:hover {
+.cta-btn:hover {
   background: var(--azurMediumBlue);
   color: var(--white);
 }
