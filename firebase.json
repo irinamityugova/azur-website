@@ -2,32 +2,6 @@
   "hosting": {
     "public": "/.",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "cleanUrls": true,
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      },
-      {
-        "source": "about",
-        "destination": "/about.html"
-      },
-      {
-        "source": "volunteer",
-        "destination": "/volunteer.html"
-      },
-      {
-        "source": "donate",
-        "destination": "/donate.html"
-      },
-      {
-        "source": "portfolio",
-        "destination": "/portfolio.html"
-      },
-      {
-        "source": "contact",
-        "destination": "/contact.html"
-      }
-    ]
+    "cleanUrls": true
   }
 }
