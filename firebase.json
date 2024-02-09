@@ -3,31 +3,30 @@
     "public": "/.",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "cleanUrls": true,
-    "trailingSlash": true,
     "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
       },
       {
-        "source": "about.html",
-        "destination": "/about"
+        "source": "about",
+        "destination": "/about.html"
       },
       {
-        "source": "volunteer.html",
-        "destination": "/volunteer"
+        "source": "volunteer",
+        "destination": "/volunteer.html"
       },
       {
-        "source": "donate.html",
-        "destination": "/donate"
+        "source": "donate",
+        "destination": "/donate.html"
       },
       {
-        "source": "portfolio.html",
-        "destination": "/portfolios"
+        "source": "portfolio",
+        "destination": "/portfolio.html"
       },
       {
-        "source": "contact.html",
-        "destination": "/contact"
+        "source": "contact",
+        "destination": "/contact.html"
       }
     ]
   }
