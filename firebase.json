@@ -2,15 +2,33 @@
   "hosting": {
     "public": "/.",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "cleanUrls": true,
+    "trailingSlash": true,
     "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
+      },
+      {
+        "source": "about.html",
+        "destination": "/about"
+      },
+      {
+        "source": "volunteer.html",
+        "destination": "/volunteer"
+      },
+      {
+        "source": "donate.html",
+        "destination": "/donate"
+      },
+      {
+        "source": "portfolio.html",
+        "destination": "/portfolios"
+      },
+      {
+        "source": "contact.html",
+        "destination": "/contact"
       }
-    ],
-    "hosting": {
-      "cleanUrls": true,
-      "trailingSlash": true
-    }
+    ]
   }
 }
