@@ -34,6 +34,12 @@ a:hover {
   text-decoration: none;
 }
 
+.ctr {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
