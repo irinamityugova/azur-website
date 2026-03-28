@@ -1,31 +1,51 @@
-# Table of contents
+# Azur Agency Website
 
-- [Overview](#overview)
-  - [Links](#links)
-  - [Built with](#built-with)  
-- [Author](#author)
+Non-profit creative services website for [Azur Agency](https://azur-agency.org), built and maintained by volunteers at DarkMode Devs.
 
-## Overview
+## Links
 
-Azur Agency Website
+- **Live site:** https://azur-agency.org/
+- **Public repo:** https://github.com/devftrejo/AzurAgencyWebsite
 
-- This project is a non-profit business website for Azur Agency, it is built with HTML, CSS, and JavaScript, with the Bootstrap framework, third-party libraries, and FormSubmit. It uses npm package management, and lite-server for the development process with VSCode as the IDE. Lastly, it is hosted on Google Firebase (Client's Choice).
+## Built with
 
-### Links
+- HTML, CSS, JavaScript
+- [Bootstrap 5](https://getbootstrap.com/)
+- [npm](https://www.npmjs.com/) + [lite-server](https://github.com/johnpapa/lite-server) (dev server)
+- [Firebase Hosting](https://firebase.google.com/docs/hosting)
+- Third-party libraries: AOS, Swiper, GLightbox, Isotope, Boxicons, Bootstrap Icons, animate.css
 
-- [Project Public Repo](https://github.com/devftrejo/AzurAgencyWebsite)
-- [Azur Agency Live Site](https://azur-agency.org/)
+## Development
 
-### Built with
+### Prerequisites
 
-- HTML
-- CSS
-- JavaScript
-- [Bootstrap](https://getbootstrap.com/)
-- [npm](https://www.npmjs.com/)
+- Node.js / npm
+- Firebase CLI (`npm install -g firebase-tools`) for deployment
 
-## Author
+### Setup
 
-- [Irina Mityugova](https://www.linkedin.com/in/irina-mityugova/)
+```bash
+npm install
+npm start        # live-reload dev server at http://localhost:3000
+```
+
+### Deployment
+
+```bash
+firebase deploy                   # deploy all Firebase services
+firebase deploy --only hosting    # deploy website only
+```
+
+## Architecture
+
+Static multi-page site — no framework, no build step. All pages are independent HTML files in `public/`. Shared elements (topbar, header, footer, vendor scripts) are manually duplicated in every page; there is no templating system.
+
+## Authors
+
 - [Fernando Trejo](https://www.linkedin.com/in/devftrejo/)
-- [Azur Agency LinkedIn](https://www.linkedin.com/company/creativeazur/)
+- [Irina Mityugova](https://www.linkedin.com/in/irina-mityugova/)
+- [Azur Agency](https://www.linkedin.com/company/creativeazur/)
+
+## License
+
+No license — all rights reserved. See https://choosealicense.com/no-permission/ for what this means.
